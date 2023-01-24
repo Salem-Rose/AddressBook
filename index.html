@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/scripts.js"></script>
+    <title>Address Book</title>
+  </head>  
+    <body>
+      <form>
+        <h1>Address Book</h1>
+        <p>Add a Contact:</p>
+        <label for="firstName">First Name:</label>
+        <input id="firstName" type="text">
+        <label for="lastName">Last Name:</label>
+        <input id="lastName" type="text">
+        <label for="phoneNumber">Phone Number:</label>
+        <input id="phoneNumber" type="number">
+        <button type="submit">Add</button>
+      </form>
+    </body>  
+
+    <div id="contact" class="hidden">
+      <h1>Contact Information</h1>
+      <p>First Name: <span class="firstName"></span></p>
+      <p>Last Name: <span class="lastName"></span></p>
+      <p>Phone Number: <span class="phoneNumber"></span></p>
+      </p>
+    </div>
+</html>
